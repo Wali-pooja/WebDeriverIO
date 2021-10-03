@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633270832917' stop='1633270838650'>
+    <name>The Internet Guinea Pig Website: As a user, I should able to login</name>
+    <title>The Internet Guinea Pig Website: As a user, I should able to login</title>
+    <test-cases>
+        <test-case start='1633270832918' status='passed' stop='1633270832919'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633270832919' status='passed' stop='1633270835620'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633270832920' status='passed' stop='1633270835618'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='91fe4790-bbdf-41c1-8eeb-504c7b0986fa-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633270835620' status='passed' stop='1633270838631'>
+            <name>When I click on signin link</name>
+            <title>When I click on signin link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633270835621' status='passed' stop='1633270838630'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3c50b2c6-d1e0-4035-80a9-6e01e7951911-attachment.json' type='application/json' size='106'/>
+                    </attachments>
+                    <steps>
+                        <step start='1633270835663' status='passed' stop='1633270835693'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments>
+                                <attachment title='Response' source='db6ab4fd-d58e-4e8f-b3d9-c3fe24d45778-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1633270835699' status='passed' stop='1633270835739'>
+                            <name>POST /session/:sessionId/element/a871357a-5cd8-4205-91e6-32bd1b41c5ef/click</name>
+                            <title>POST /session/:sessionId/element/a871357a-5cd8-4205-91e6-32bd1b41c5ef/click</title>
+                            <attachments>
+                                <attachment title='Response' source='06320dfe-0980-498d-8b61-cd893f63a1f1-attachment.json' type='application/json' size='58'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633270838631' status='broken' stop='1633270838633'>
+            <name>And I login with test456@xyz.com and 4test4</name>
+            <title>And I login with test456@xyz.com and 4test4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I login with test456@xyz.com and 4test4" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I login with test456@xyz.com and 4test4" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Sajjan\Desktop\WebIO\features\login.feature):1:1
+                	at Scenario(As a user, I should able to login):13:5
+                	at Step(I login with &lt;username> and &lt;password>):17:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633270838633' status='broken' stop='1633270838649'>
+            <name>Then I should see a home page</name>
+            <title>Then I should see a home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see a home page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see a home page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Sajjan\Desktop\WebIO\features\login.feature):1:1
+                	at Scenario(As a user, I should able to login):13:5
+                	at Step(I should see a home page):18:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633270838650' status='passed' stop='1633270838650'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

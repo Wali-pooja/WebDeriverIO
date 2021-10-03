@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#header > div.nav > div > div > nav > div:nth-child(1) > a > span\"}\n  (Session info: chrome=94.0.4606.71)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x005DBDE3+2473443]\n\tOrdinal0 [0x00576661+2057825]\n\tOrdinal0 [0x00482438+1057848]\n\tOrdinal0 [0x004AC7DB+1230811]\n\tOrdinal0 [0x004D6712+1402642]\n\tOrdinal0 [0x004C571A+1333018]\n\tOrdinal0 [0x004D4ABF+1395391]\n\tOrdinal0 [0x004C55AB+1332651]\n\tOrdinal0 [0x004A2104+1188100]\n\tOrdinal0 [0x004A2F59+1191769]\n\tGetHandleVerifier [0x00762266+1549718]\n\tGetHandleVerifier [0x0080D4A7+2250711]\n\tGetHandleVerifier [0x0066718B+521403]\n\tGetHandleVerifier [0x00666229+517465]\n\tOrdinal0 [0x0057B79D+2078621]\n\tOrdinal0 [0x0057FB58+2095960]\n\tOrdinal0 [0x0057FC92+2096274]\n\tOrdinal0 [0x00589541+2135361]\n\tBaseThreadInitThunk [0x77196359+25]\n\tRtlGetAppContainerNamedObjectPath [0x775D87A4+228]\n\tRtlGetAppContainerNamedObjectPath [0x775D8774+180]\n"
+}

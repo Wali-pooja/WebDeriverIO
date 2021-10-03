@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#account-creation_form > div:nth-child(1) > h3"
+}

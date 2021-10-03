@@ -1,0 +1,120 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633203184812' stop='1633203196573'>
+    <name>The Internet Guinea Pig Website: As a user register to website</name>
+    <title>The Internet Guinea Pig Website: As a user register to website</title>
+    <test-cases>
+        <test-case start='1633203184813' status='passed' stop='1633203184817'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633203184818' status='passed' stop='1633203192799'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633203184825' status='passed' stop='1633203192794'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b741cb61-171d-445e-b122-58e7f7f7d13a-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633203192799' status='passed' stop='1633203196395'>
+            <name>When I click on signin link</name>
+            <title>When I click on signin link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633203192807' status='passed' stop='1633203192992'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='544e5609-d178-43da-a704-7ccd3567c9f3-attachment.json' type='application/json' size='106'/>
+                        <attachment title='Response' source='38abc968-87ec-47c2-974f-905e275c70b2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633203193026' status='passed' stop='1633203196390'>
+                    <name>POST /session/:sessionId/element/69ec915a-2beb-413d-8f31-9407166064ad/click</name>
+                    <title>POST /session/:sessionId/element/69ec915a-2beb-413d-8f31-9407166064ad/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633203196395' status='passed' stop='1633203196567'>
+            <name>Then I should see a create account page</name>
+            <title>Then I should see a create account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633203196401' status='passed' stop='1633203196523'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='91fdf3b2-10e1-401e-9ee6-691a605bba50-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='7789b5e2-641d-4d97-b7c9-43c0ed8fec3f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633203196534' status='passed' stop='1633203196566'>
+                    <name>GET /session/:sessionId/element/07382d42-801e-4b4f-92d1-206a3cbbd80b/text</name>
+                    <title>GET /session/:sessionId/element/07382d42-801e-4b4f-92d1-206a3cbbd80b/text</title>
+                    <attachments>
+                        <attachment title='Response' source='696ec5a3-406a-4c37-ac6d-423affc9d63b-attachment.json' type='application/json' size='19'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633203196568' status='passed' stop='1633203196571'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
